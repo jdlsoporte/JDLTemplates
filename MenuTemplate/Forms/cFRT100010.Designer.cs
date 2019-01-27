@@ -132,10 +132,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.PrincipalPanel);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "cFRT100010";
             this.Text = "cFRT100010";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.PrincipalPanel.ResumeLayout(false);

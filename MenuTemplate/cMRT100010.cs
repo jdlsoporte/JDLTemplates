@@ -123,17 +123,17 @@ namespace MenuTemplate
             OpenFormChild(new MenuTemplate.Forms.cFRT100010());
         }
 
-        protected override void OnSizeChanged(EventArgs e)
-        {
-            base.OnSizeChanged(e);
-            var region = new Region(new Rectangle(0, 0, this.ClientRectangle.Width, this.ClientRectangle.Height));
+        //protected override void OnSizeChanged(EventArgs e)
+        //{
+        //    base.OnSizeChanged(e);
+        //    var region = new Region(new Rectangle(0, 0, this.ClientRectangle.Width, this.ClientRectangle.Height));
 
-            sizeGripRectangle = new Rectangle(this.ClientRectangle.Width - tolerance, this.ClientRectangle.Height - tolerance, tolerance, tolerance);
+        //    sizeGripRectangle = new Rectangle(this.ClientRectangle.Width - tolerance, this.ClientRectangle.Height - tolerance, tolerance, tolerance);
 
-            region.Exclude(sizeGripRectangle);
-            this.PrincipalPanel.Region = region;
-            this.Invalidate();
-        }
+        //    region.Exclude(sizeGripRectangle);
+        //    this.PrincipalPanel.Region = region;
+        //    this.Invalidate();
+        //}
         //----------------COLOR Y GRIP DE RECTANGULO INFERIOR
         //protected override void OnPaint(PaintEventArgs e)
         //{
